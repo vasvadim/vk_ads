@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

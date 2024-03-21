@@ -1,0 +1,84 @@
+Start testing: Mar 21 23:41 MSK
+----------------------------------------------------------
+1/3 Testing: EndZeroTest1.BasicAssertions
+1/3 Test: EndZeroTest1.BasicAssertions
+Command: "/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1" "--gtest_filter=EndZeroTest1.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build
+"EndZeroTest1.BasicAssertions" start time: Mar 21 23:41 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EndZeroTest1.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EndZeroTest1
+[ RUN      ] EndZeroTest1.BasicAssertions
+[       OK ] EndZeroTest1.BasicAssertions (0 ms)
+[----------] 1 test from EndZeroTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EndZeroTest1.BasicAssertions" end time: Mar 21 23:41 MSK
+"EndZeroTest1.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: EndZeroTest2.BasicAssertions
+2/3 Test: EndZeroTest2.BasicAssertions
+Command: "/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1" "--gtest_filter=EndZeroTest2.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build
+"EndZeroTest2.BasicAssertions" start time: Mar 21 23:41 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EndZeroTest2.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EndZeroTest2
+[ RUN      ] EndZeroTest2.BasicAssertions
+[       OK ] EndZeroTest2.BasicAssertions (0 ms)
+[----------] 1 test from EndZeroTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EndZeroTest2.BasicAssertions" end time: Mar 21 23:41 MSK
+"EndZeroTest2.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: EndZeroTest3.BasicAssertions
+3/3 Test: EndZeroTest3.BasicAssertions
+Command: "/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1" "--gtest_filter=EndZeroTest3.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build
+"EndZeroTest3.BasicAssertions" start time: Mar 21 23:41 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EndZeroTest3.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EndZeroTest3
+[ RUN      ] EndZeroTest3.BasicAssertions
+[       OK ] EndZeroTest3.BasicAssertions (0 ms)
+[----------] 1 test from EndZeroTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EndZeroTest3.BasicAssertions" end time: Mar 21 23:41 MSK
+"EndZeroTest3.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 21 23:41 MSK

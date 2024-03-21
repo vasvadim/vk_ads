@@ -1,0 +1,5 @@
+if(EXISTS "/home/vadim/vk_ads/seminars/seminar_2/hometask2/unit_tests/build/MergeListTest1[1]_tests.cmake")
+  include("/home/vadim/vk_ads/seminars/seminar_2/hometask2/unit_tests/build/MergeListTest1[1]_tests.cmake")
+else()
+  add_test(MergeListTest1_NOT_BUILT MergeListTest1_NOT_BUILT)
+endif()

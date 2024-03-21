@@ -1,0 +1,7 @@
+add_test( EndZeroTest1.BasicAssertions /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1 [==[--gtest_filter=EndZeroTest1.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( EndZeroTest1.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( EndZeroTest2.BasicAssertions /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1 [==[--gtest_filter=EndZeroTest2.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( EndZeroTest2.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( EndZeroTest3.BasicAssertions /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/ZerosEndTest1 [==[--gtest_filter=EndZeroTest3.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( EndZeroTest3.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( ZerosEndTest1_TESTS EndZeroTest1.BasicAssertions EndZeroTest2.BasicAssertions EndZeroTest3.BasicAssertions)

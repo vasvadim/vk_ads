@@ -1,0 +1,7 @@
+HelloTest.BasicAssertions 2 0.00132286
+EndZeroTest.BasicAssertions 2 0.00531792
+EndZeroTest1.BasicAssertions 9 0.000807902
+EndZeroTest2.BasicAssertions 9 0.000288375
+EndZeroTest3.BasicAssertions 7 0.000381366
+ABOBA.ABOBA_TYPE_TEST 0 0
+---

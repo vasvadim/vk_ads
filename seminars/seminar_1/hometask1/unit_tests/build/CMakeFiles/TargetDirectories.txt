@@ -1,6 +1,8 @@
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/ZerosEndTest1.dir
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/ZerosEndTest2.dir
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/ZerosEndTest3.dir
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/ZerosEndTest4.dir
+/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/ZerosEndTest5.dir
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/test.dir
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/edit_cache.dir
 /home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/CMakeFiles/rebuild_cache.dir

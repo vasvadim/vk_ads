@@ -42,5 +42,24 @@ target_link_libraries(
   GTest::gtest_main
 )
 
+add_executable(
+  ZerosEndTest4
+  unit_tests.cpp
+)
+target_link_libraries(
+  ZerosEndTest4
+  GTest::gtest_main
+)
+
+add_executable(
+  ZerosEndTest5
+  unit_tests.cpp
+)
+target_link_libraries(
+  ZerosEndTest5
+  GTest::gtest_main
+)
+
 include(GoogleTest)
-gtest_discover_tests(ZerosEndTest1 ZerosEndTest2 ZerosEndTest3)
+gtest_discover_tests(ZerosEndTest1 ZerosEndTest2 ZerosEndTest3 
+                    ZeroEndTest4 ZerosEndTest5)

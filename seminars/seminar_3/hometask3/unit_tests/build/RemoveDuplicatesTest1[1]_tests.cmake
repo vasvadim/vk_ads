@@ -6,4 +6,6 @@ add_test( RemoveDuplicatesTest3.BasicAssertions /home/vadim/vk_ads/seminars/semi
 set_tests_properties( RemoveDuplicatesTest3.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test( RemoveDuplicatesTest4.BasicAssertions /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1 [==[--gtest_filter=RemoveDuplicatesTest4.BasicAssertions]==] --gtest_also_run_disabled_tests)
 set_tests_properties( RemoveDuplicatesTest4.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( RemoveDuplicatesTest1_TESTS RemoveDuplicatesTest1.BasicAssertions RemoveDuplicatesTest2.BasicAssertions RemoveDuplicatesTest3.BasicAssertions RemoveDuplicatesTest4.BasicAssertions)
+add_test( RemoveDuplicatesTest5.BasicAssertions /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1 [==[--gtest_filter=RemoveDuplicatesTest5.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( RemoveDuplicatesTest5.BasicAssertions PROPERTIES WORKING_DIRECTORY /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( RemoveDuplicatesTest1_TESTS RemoveDuplicatesTest1.BasicAssertions RemoveDuplicatesTest2.BasicAssertions RemoveDuplicatesTest3.BasicAssertions RemoveDuplicatesTest4.BasicAssertions RemoveDuplicatesTest5.BasicAssertions)

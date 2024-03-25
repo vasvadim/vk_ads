@@ -42,5 +42,24 @@ target_link_libraries(
   GTest::gtest_main
 )
 
+add_executable(
+  MergeListTest4
+  unit_tests.cpp
+)
+target_link_libraries(
+  MergeListTest4
+  GTest::gtest_main
+)
+
+add_executable(
+  MergeListTest5
+  unit_tests.cpp
+)
+target_link_libraries(
+  MergeListTest5
+  GTest::gtest_main
+)
+
 include(GoogleTest)
-gtest_discover_tests(MergeListTest1 MergeListTest2 MergeListTest3)
+gtest_discover_tests(MergeListTest1 MergeListTest2 MergeListTest3 
+                    MergeListTest4 MergeListTest5)

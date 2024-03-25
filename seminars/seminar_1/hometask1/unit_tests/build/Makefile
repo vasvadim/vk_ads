@@ -211,6 +211,32 @@ ZerosEndTest3/fast:
 .PHONY : ZerosEndTest3/fast
 
 #=============================================================================
+# Target rules for targets named ZerosEndTest4
+
+# Build rule for target.
+ZerosEndTest4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZerosEndTest4
+.PHONY : ZerosEndTest4
+
+# fast build rule for target.
+ZerosEndTest4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest4.dir/build.make CMakeFiles/ZerosEndTest4.dir/build
+.PHONY : ZerosEndTest4/fast
+
+#=============================================================================
+# Target rules for targets named ZerosEndTest5
+
+# Build rule for target.
+ZerosEndTest5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZerosEndTest5
+.PHONY : ZerosEndTest5
+
+# fast build rule for target.
+ZerosEndTest5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest5.dir/build.make CMakeFiles/ZerosEndTest5.dir/build
+.PHONY : ZerosEndTest5/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -270,6 +296,8 @@ unit_tests.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest1.dir/build.make CMakeFiles/ZerosEndTest1.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest2.dir/build.make CMakeFiles/ZerosEndTest2.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest3.dir/build.make CMakeFiles/ZerosEndTest3.dir/unit_tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest4.dir/build.make CMakeFiles/ZerosEndTest4.dir/unit_tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest5.dir/build.make CMakeFiles/ZerosEndTest5.dir/unit_tests.cpp.o
 .PHONY : unit_tests.cpp.o
 
 unit_tests.i: unit_tests.cpp.i
@@ -280,6 +308,8 @@ unit_tests.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest1.dir/build.make CMakeFiles/ZerosEndTest1.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest2.dir/build.make CMakeFiles/ZerosEndTest2.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest3.dir/build.make CMakeFiles/ZerosEndTest3.dir/unit_tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest4.dir/build.make CMakeFiles/ZerosEndTest4.dir/unit_tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest5.dir/build.make CMakeFiles/ZerosEndTest5.dir/unit_tests.cpp.i
 .PHONY : unit_tests.cpp.i
 
 unit_tests.s: unit_tests.cpp.s
@@ -290,6 +320,8 @@ unit_tests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest1.dir/build.make CMakeFiles/ZerosEndTest1.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest2.dir/build.make CMakeFiles/ZerosEndTest2.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest3.dir/build.make CMakeFiles/ZerosEndTest3.dir/unit_tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest4.dir/build.make CMakeFiles/ZerosEndTest4.dir/unit_tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZerosEndTest5.dir/build.make CMakeFiles/ZerosEndTest5.dir/unit_tests.cpp.s
 .PHONY : unit_tests.cpp.s
 
 # Help Target
@@ -308,6 +340,8 @@ help:
 	@echo "... ZerosEndTest1"
 	@echo "... ZerosEndTest2"
 	@echo "... ZerosEndTest3"
+	@echo "... ZerosEndTest4"
+	@echo "... ZerosEndTest5"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

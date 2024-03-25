@@ -224,6 +224,19 @@ RemoveDuplicatesTest4/fast:
 .PHONY : RemoveDuplicatesTest4/fast
 
 #=============================================================================
+# Target rules for targets named RemoveDuplicatesTest5
+
+# Build rule for target.
+RemoveDuplicatesTest5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RemoveDuplicatesTest5
+.PHONY : RemoveDuplicatesTest5
+
+# fast build rule for target.
+RemoveDuplicatesTest5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest5.dir/build.make CMakeFiles/RemoveDuplicatesTest5.dir/build
+.PHONY : RemoveDuplicatesTest5/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -284,6 +297,7 @@ unit_tests.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest2.dir/build.make CMakeFiles/RemoveDuplicatesTest2.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest3.dir/build.make CMakeFiles/RemoveDuplicatesTest3.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest4.dir/build.make CMakeFiles/RemoveDuplicatesTest4.dir/unit_tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest5.dir/build.make CMakeFiles/RemoveDuplicatesTest5.dir/unit_tests.cpp.o
 .PHONY : unit_tests.cpp.o
 
 unit_tests.i: unit_tests.cpp.i
@@ -295,6 +309,7 @@ unit_tests.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest2.dir/build.make CMakeFiles/RemoveDuplicatesTest2.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest3.dir/build.make CMakeFiles/RemoveDuplicatesTest3.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest4.dir/build.make CMakeFiles/RemoveDuplicatesTest4.dir/unit_tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest5.dir/build.make CMakeFiles/RemoveDuplicatesTest5.dir/unit_tests.cpp.i
 .PHONY : unit_tests.cpp.i
 
 unit_tests.s: unit_tests.cpp.s
@@ -306,6 +321,7 @@ unit_tests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest2.dir/build.make CMakeFiles/RemoveDuplicatesTest2.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest3.dir/build.make CMakeFiles/RemoveDuplicatesTest3.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest4.dir/build.make CMakeFiles/RemoveDuplicatesTest4.dir/unit_tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicatesTest5.dir/build.make CMakeFiles/RemoveDuplicatesTest5.dir/unit_tests.cpp.s
 .PHONY : unit_tests.cpp.s
 
 # Help Target
@@ -325,6 +341,7 @@ help:
 	@echo "... RemoveDuplicatesTest2"
 	@echo "... RemoveDuplicatesTest3"
 	@echo "... RemoveDuplicatesTest4"
+	@echo "... RemoveDuplicatesTest5"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

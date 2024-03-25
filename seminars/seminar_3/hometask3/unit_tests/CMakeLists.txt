@@ -51,6 +51,15 @@ target_link_libraries(
   GTest::gtest_main
 )
 
+add_executable(
+  RemoveDuplicatesTest5
+  unit_tests.cpp
+)
+target_link_libraries(
+  RemoveDuplicatesTest5
+  GTest::gtest_main
+)
+
 include(GoogleTest)
-gtest_discover_tests(RemoveDuplicatesTest1 RemoveDuplicatesTest2 
-                    RemoveDuplicatesTest3 RemoveDuplicatesTest4)
+gtest_discover_tests(RemoveDuplicatesTest1 RemoveDuplicatesTest2 RemoveDuplicatesTest3 
+                    RemoveDuplicatesTest4 RemoveDuplicatesTest5)

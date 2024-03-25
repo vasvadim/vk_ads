@@ -32,3 +32,11 @@ TEST(RemoveDuplicatesTest4, BasicAssertions){
 
     EXPECT_EQ(string, string_res);
 }
+
+TEST(RemoveDuplicatesTest5, BasicAssertions){
+    std::string string{"sojkkjo"};
+    string.assign(removeDuplicates(string));
+    std::string string_res{"s"};
+
+    EXPECT_EQ(string, string_res);
+}

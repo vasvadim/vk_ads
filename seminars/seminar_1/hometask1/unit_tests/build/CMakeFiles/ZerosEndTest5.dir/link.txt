@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ZerosEndTest5.dir/unit_tests.cpp.o -o ZerosEndTest5  lib/libgtest_main.a lib/libgtest.a 

@@ -211,6 +211,32 @@ MergeListTest3/fast:
 .PHONY : MergeListTest3/fast
 
 #=============================================================================
+# Target rules for targets named MergeListTest4
+
+# Build rule for target.
+MergeListTest4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeListTest4
+.PHONY : MergeListTest4
+
+# fast build rule for target.
+MergeListTest4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest4.dir/build.make CMakeFiles/MergeListTest4.dir/build
+.PHONY : MergeListTest4/fast
+
+#=============================================================================
+# Target rules for targets named MergeListTest5
+
+# Build rule for target.
+MergeListTest5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeListTest5
+.PHONY : MergeListTest5
+
+# fast build rule for target.
+MergeListTest5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest5.dir/build.make CMakeFiles/MergeListTest5.dir/build
+.PHONY : MergeListTest5/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -270,6 +296,8 @@ unit_tests.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest1.dir/build.make CMakeFiles/MergeListTest1.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest2.dir/build.make CMakeFiles/MergeListTest2.dir/unit_tests.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest3.dir/build.make CMakeFiles/MergeListTest3.dir/unit_tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest4.dir/build.make CMakeFiles/MergeListTest4.dir/unit_tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest5.dir/build.make CMakeFiles/MergeListTest5.dir/unit_tests.cpp.o
 .PHONY : unit_tests.cpp.o
 
 unit_tests.i: unit_tests.cpp.i
@@ -280,6 +308,8 @@ unit_tests.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest1.dir/build.make CMakeFiles/MergeListTest1.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest2.dir/build.make CMakeFiles/MergeListTest2.dir/unit_tests.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest3.dir/build.make CMakeFiles/MergeListTest3.dir/unit_tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest4.dir/build.make CMakeFiles/MergeListTest4.dir/unit_tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest5.dir/build.make CMakeFiles/MergeListTest5.dir/unit_tests.cpp.i
 .PHONY : unit_tests.cpp.i
 
 unit_tests.s: unit_tests.cpp.s
@@ -290,6 +320,8 @@ unit_tests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest1.dir/build.make CMakeFiles/MergeListTest1.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest2.dir/build.make CMakeFiles/MergeListTest2.dir/unit_tests.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest3.dir/build.make CMakeFiles/MergeListTest3.dir/unit_tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest4.dir/build.make CMakeFiles/MergeListTest4.dir/unit_tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeListTest5.dir/build.make CMakeFiles/MergeListTest5.dir/unit_tests.cpp.s
 .PHONY : unit_tests.cpp.s
 
 # Help Target
@@ -308,6 +340,8 @@ help:
 	@echo "... MergeListTest1"
 	@echo "... MergeListTest2"
 	@echo "... MergeListTest3"
+	@echo "... MergeListTest4"
+	@echo "... MergeListTest5"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

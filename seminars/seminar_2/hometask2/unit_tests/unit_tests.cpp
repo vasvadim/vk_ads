@@ -4,13 +4,13 @@
 
 TEST(MergeListTest1, BasicAssertions){
     linked_list1 list1{};
-    list1.push_front(8);
-    list1.push_front(6);
-    list1.push_front(3);
+    list1.push_back(3);
+    list1.push_back(6);
+    list1.push_back(8);
 
     linked_list1 list2{};
-    list2.push_front(9);
-    list2.push_front(4);
+    list2.push_back(4);
+    list2.push_back(9);
 
     linked_list1 list_res{};
     list_res.push_back(3);
@@ -48,6 +48,52 @@ TEST(MergeListTest3, BasicAssertions){
 
     linked_list1 list_res{};
     list_res.push_back(1);
+
+    linked_list1 list{merge_list(list1, list2)};
+
+    EXPECT_TRUE(elementCompare(list, list_res));
+}
+
+TEST(MergeListTest4, BasicAssertions){
+    linked_list1 list1{};
+    list1.push_back(1);
+    list1.push_back(2);
+    list1.push_back(3);
+
+    linked_list1 list2{};
+    list2.push_back(1);
+    list2.push_back(2);
+    list2.push_back(3);
+
+    linked_list1 list_res{};
+    list_res.push_back(1);
+    list_res.push_back(1);
+    list_res.push_back(2);
+    list_res.push_back(2);
+    list_res.push_back(3);
+    list_res.push_back(3);
+
+    linked_list1 list{merge_list(list1, list2)};
+
+    EXPECT_TRUE(elementCompare(list, list_res));
+}
+
+TEST(MergeListTest5, BasicAssertions){
+    linked_list1 list1{};
+    list1.push_back(1);
+    list1.push_back(3);
+    list1.push_back(5);
+
+    linked_list1 list2{};
+    list2.push_back(2);
+    list2.push_back(4);
+
+    linked_list1 list_res{};
+    list_res.push_back(1);
+    list_res.push_back(2);
+    list_res.push_back(3);
+    list_res.push_back(4);
+    list_res.push_back(5);
 
     linked_list1 list{merge_list(list1, list2)};
 

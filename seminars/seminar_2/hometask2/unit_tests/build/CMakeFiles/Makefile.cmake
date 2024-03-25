@@ -82,6 +82,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MergeListTest1.dir/DependInfo.cmake"
   "CMakeFiles/MergeListTest2.dir/DependInfo.cmake"
   "CMakeFiles/MergeListTest3.dir/DependInfo.cmake"
+  "CMakeFiles/MergeListTest4.dir/DependInfo.cmake"
+  "CMakeFiles/MergeListTest5.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

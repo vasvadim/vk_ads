@@ -1,9 +1,14 @@
 HelloTest.BasicAssertions 2 0.00132286
 EndZeroTest.BasicAssertions 2 0.00531792
-EndZeroTest1.BasicAssertions 11 0.000287396
-EndZeroTest2.BasicAssertions 11 0.00026219
-EndZeroTest3.BasicAssertions 9 0.000355101
+EndZeroTest1.BasicAssertions 19 0.0005633
+EndZeroTest2.BasicAssertions 19 0.000256076
+EndZeroTest3.BasicAssertions 14 0
 ABOBA.ABOBA_TYPE_TEST 0 0
-EndZeroTest4.BasicAssertions 2 0.00223055
-EndZeroTest5.BasicAssertions 2 0.00123554
+EndZeroTest4.BasicAssertions 10 0.000445474
+EndZeroTest5.BasicAssertions 10 0.000368036
+ZeroEndTest1.BasicAssertions 19 0.000128904
+ZeroEndTest2.BasicAssertions 19 0.000110645
+ZeroEndTest3.BasicAssertions 19 9.51381e-05
+ZeroEndTest4.BasicAssertions 19 0.000124116
+ZeroEndTest5.BasicAssertions 19 0.000156537
 ---

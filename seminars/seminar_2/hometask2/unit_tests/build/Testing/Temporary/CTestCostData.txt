@@ -1,7 +1,7 @@
 MergeListTest.BasicAssertions 1 0.00307771
-MergeListTest1.BasicAssertions 9 0.0003721
-MergeListTest2.BasicAssertions 8 0.000331455
-MergeListTest3.BasicAssertions 7 0.00055564
-MergeListTest4.BasicAssertions 3 0.00132809
-MergeListTest5.BasicAssertions 2 0.00209938
+MergeListTest1.BasicAssertions 21 0.000110599
+MergeListTest2.BasicAssertions 20 0.000143045
+MergeListTest3.BasicAssertions 19 9.62511e-05
+MergeListTest4.BasicAssertions 13 0.000150982
+MergeListTest5.BasicAssertions 14 0.000211136
 ---

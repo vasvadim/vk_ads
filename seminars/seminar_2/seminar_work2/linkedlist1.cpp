@@ -109,17 +109,14 @@ void linked_list1::push_back(int n){
 
 void linked_list1::print(){
     Node* p = head;
-    std::string output = "";
 
     while (p != nullptr){
-        output += std::to_string(p->data);
+        std::cout << std::to_string(p->data);
         if (p->next != nullptr){
-            output += "->";
+          std::cout << "->";
         }
-
         p = p->next; 
     }
-    std::cout << output << std::endl;
 }
 
 void linked_list1::insert(int after, int n){

@@ -1,10 +1,10 @@
-Start testing: Mar 25 22:48 MSK
+Start testing: Mar 27 01:33 MSK
 ----------------------------------------------------------
 1/5 Testing: RemoveDuplicatesTest1.BasicAssertions
 1/5 Test: RemoveDuplicatesTest1.BasicAssertions
 Command: "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1" "--gtest_filter=RemoveDuplicatesTest1.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build
-"RemoveDuplicatesTest1.BasicAssertions" start time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest1.BasicAssertions" start time: Mar 27 01:33 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -13,6 +13,9 @@ Note: Google Test filter = RemoveDuplicatesTest1.BasicAssertions
 [----------] Global test environment set-up.
 [----------] 1 test from RemoveDuplicatesTest1
 [ RUN      ] RemoveDuplicatesTest1.BasicAssertions
+Input data: cdffd
+Expected data: c
+Result: c
 [       OK ] RemoveDuplicatesTest1.BasicAssertions (0 ms)
 [----------] 1 test from RemoveDuplicatesTest1 (0 ms total)
 
@@ -23,7 +26,7 @@ Note: Google Test filter = RemoveDuplicatesTest1.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RemoveDuplicatesTest1.BasicAssertions" end time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest1.BasicAssertions" end time: Mar 27 01:33 MSK
 "RemoveDuplicatesTest1.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +34,7 @@ Test Passed.
 2/5 Test: RemoveDuplicatesTest2.BasicAssertions
 Command: "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1" "--gtest_filter=RemoveDuplicatesTest2.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build
-"RemoveDuplicatesTest2.BasicAssertions" start time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest2.BasicAssertions" start time: Mar 27 01:33 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -40,6 +43,9 @@ Note: Google Test filter = RemoveDuplicatesTest2.BasicAssertions
 [----------] Global test environment set-up.
 [----------] 1 test from RemoveDuplicatesTest2
 [ RUN      ] RemoveDuplicatesTest2.BasicAssertions
+Input data: uioouiouuo
+Expected data: uiui
+Result: uiui
 [       OK ] RemoveDuplicatesTest2.BasicAssertions (0 ms)
 [----------] 1 test from RemoveDuplicatesTest2 (0 ms total)
 
@@ -50,7 +56,7 @@ Note: Google Test filter = RemoveDuplicatesTest2.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RemoveDuplicatesTest2.BasicAssertions" end time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest2.BasicAssertions" end time: Mar 27 01:33 MSK
 "RemoveDuplicatesTest2.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +64,7 @@ Test Passed.
 3/5 Test: RemoveDuplicatesTest3.BasicAssertions
 Command: "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1" "--gtest_filter=RemoveDuplicatesTest3.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build
-"RemoveDuplicatesTest3.BasicAssertions" start time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest3.BasicAssertions" start time: Mar 27 01:33 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -67,6 +73,9 @@ Note: Google Test filter = RemoveDuplicatesTest3.BasicAssertions
 [----------] Global test environment set-up.
 [----------] 1 test from RemoveDuplicatesTest3
 [ RUN      ] RemoveDuplicatesTest3.BasicAssertions
+Input data: aa
+Expected data: 
+Result: 
 [       OK ] RemoveDuplicatesTest3.BasicAssertions (0 ms)
 [----------] 1 test from RemoveDuplicatesTest3 (0 ms total)
 
@@ -77,7 +86,7 @@ Note: Google Test filter = RemoveDuplicatesTest3.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RemoveDuplicatesTest3.BasicAssertions" end time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest3.BasicAssertions" end time: Mar 27 01:33 MSK
 "RemoveDuplicatesTest3.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +94,7 @@ Test Passed.
 4/5 Test: RemoveDuplicatesTest4.BasicAssertions
 Command: "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1" "--gtest_filter=RemoveDuplicatesTest4.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build
-"RemoveDuplicatesTest4.BasicAssertions" start time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest4.BasicAssertions" start time: Mar 27 01:33 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -94,6 +103,9 @@ Note: Google Test filter = RemoveDuplicatesTest4.BasicAssertions
 [----------] Global test environment set-up.
 [----------] 1 test from RemoveDuplicatesTest4
 [ RUN      ] RemoveDuplicatesTest4.BasicAssertions
+Input data: aboba
+Expected data: aboba
+Result: aboba
 [       OK ] RemoveDuplicatesTest4.BasicAssertions (0 ms)
 [----------] 1 test from RemoveDuplicatesTest4 (0 ms total)
 
@@ -104,7 +116,7 @@ Note: Google Test filter = RemoveDuplicatesTest4.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RemoveDuplicatesTest4.BasicAssertions" end time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest4.BasicAssertions" end time: Mar 27 01:33 MSK
 "RemoveDuplicatesTest4.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +124,7 @@ Test Passed.
 5/5 Test: RemoveDuplicatesTest5.BasicAssertions
 Command: "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1" "--gtest_filter=RemoveDuplicatesTest5.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build
-"RemoveDuplicatesTest5.BasicAssertions" start time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest5.BasicAssertions" start time: Mar 27 01:33 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -121,6 +133,9 @@ Note: Google Test filter = RemoveDuplicatesTest5.BasicAssertions
 [----------] Global test environment set-up.
 [----------] 1 test from RemoveDuplicatesTest5
 [ RUN      ] RemoveDuplicatesTest5.BasicAssertions
+Input data: sojkkjo
+Expected data: s
+Result: s
 [       OK ] RemoveDuplicatesTest5.BasicAssertions (0 ms)
 [----------] 1 test from RemoveDuplicatesTest5 (0 ms total)
 
@@ -131,8 +146,8 @@ Note: Google Test filter = RemoveDuplicatesTest5.BasicAssertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RemoveDuplicatesTest5.BasicAssertions" end time: Mar 25 22:48 MSK
+"RemoveDuplicatesTest5.BasicAssertions" end time: Mar 27 01:33 MSK
 "RemoveDuplicatesTest5.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 25 22:48 MSK
+End testing: Mar 27 01:33 MSK

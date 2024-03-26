@@ -14,3 +14,11 @@ void zerosEnd(std::array<T, N>& arr){
         }
     } 
 }
+
+template <typename T, std::size_t N>
+void print(std::array<T, N>& arr){
+    for (int i=0; i < N; ++i){
+        std::cout << arr[i] << ' ';
+    }
+    std::cout << std::endl;
+}

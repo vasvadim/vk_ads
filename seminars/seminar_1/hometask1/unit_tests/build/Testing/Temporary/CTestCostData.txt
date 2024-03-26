@@ -6,9 +6,9 @@ EndZeroTest3.BasicAssertions 14 0
 ABOBA.ABOBA_TYPE_TEST 0 0
 EndZeroTest4.BasicAssertions 10 0.000445474
 EndZeroTest5.BasicAssertions 10 0.000368036
-ZeroEndTest1.BasicAssertions 19 0.000128904
-ZeroEndTest2.BasicAssertions 19 0.000110645
-ZeroEndTest3.BasicAssertions 19 9.51381e-05
-ZeroEndTest4.BasicAssertions 19 0.000124116
-ZeroEndTest5.BasicAssertions 19 0.000156537
+ZeroEndTest1.BasicAssertions 21 0.000105246
+ZeroEndTest2.BasicAssertions 21 8.35267e-05
+ZeroEndTest3.BasicAssertions 21 7.65139e-05
+ZeroEndTest4.BasicAssertions 21 6.93263e-05
+ZeroEndTest5.BasicAssertions 21 8.91154e-05
 ---

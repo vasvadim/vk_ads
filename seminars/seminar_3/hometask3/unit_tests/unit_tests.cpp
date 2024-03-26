@@ -10,7 +10,7 @@ TEST(RemoveDuplicatesTest1, BasicAssertions){
 
     string.assign(removeDuplicates(string));
 
-    std::cout << "Result: " << string << '\n';
+    std::cout << "Result data: " << string << '\n';
 
     EXPECT_EQ(string, string_res);
 }
@@ -24,7 +24,7 @@ TEST(RemoveDuplicatesTest2, BasicAssertions){
 
     string.assign(removeDuplicates(string));
 
-    std::cout << "Result: " << string << '\n';
+    std::cout << "Result data: " << string << '\n';
 
     EXPECT_EQ(string, string_res);
 }
@@ -38,7 +38,7 @@ TEST(RemoveDuplicatesTest3, BasicAssertions){
 
     string.assign(removeDuplicates(string));
 
-    std::cout << "Result: " << string << '\n';
+    std::cout << "Result data: " << string << '\n';
 
     EXPECT_EQ(string, string_res);
 }
@@ -52,7 +52,7 @@ TEST(RemoveDuplicatesTest4, BasicAssertions){
 
     string.assign(removeDuplicates(string));
 
-    std::cout << "Result: " << string << '\n';
+    std::cout << "Result data: " << string << '\n';
 
     EXPECT_EQ(string, string_res);
 }
@@ -66,7 +66,7 @@ TEST(RemoveDuplicatesTest5, BasicAssertions){
 
     string.assign(removeDuplicates(string));
 
-    std::cout << "Result: " << string << '\n';
+    std::cout << "Result data: " << string << '\n';
 
     EXPECT_EQ(string, string_res);
 }

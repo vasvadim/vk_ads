@@ -28,7 +28,7 @@ TEST(MergeListTest1, BasicAssertions){
 
     linked_list1 list{merge_list(list1, list2)};
 
-    std::cout << "Result: ";
+    std::cout << "Result data: ";
     list.print();
 
     EXPECT_TRUE(elementCompare(list, list_res));
@@ -54,7 +54,7 @@ TEST(MergeListTest2, BasicAssertions){
 
     linked_list1 list{merge_list(list1, list2)};
 
-    std::cout << "Result: ";
+    std::cout << "Result data: ";
     list.print();
 
     EXPECT_TRUE(elementCompare(list, list_res));
@@ -78,7 +78,7 @@ TEST(MergeListTest3, BasicAssertions){
 
     linked_list1 list{merge_list(list1, list2)};
 
-    std::cout << "Result: ";
+    std::cout << "Result data: ";
     list.print();
 
     EXPECT_TRUE(elementCompare(list, list_res));
@@ -112,7 +112,7 @@ TEST(MergeListTest4, BasicAssertions){
 
     linked_list1 list{merge_list(list1, list2)};
 
-    std::cout << "Result: ";
+    std::cout << "Result data: ";
     list.print();
 
     EXPECT_TRUE(elementCompare(list, list_res));
@@ -144,7 +144,7 @@ TEST(MergeListTest5, BasicAssertions){
 
     linked_list1 list{merge_list(list1, list2)};
 
-    std::cout << "Result: ";
+    std::cout << "Result data: ";
     list.print();
 
     EXPECT_TRUE(elementCompare(list, list_res));

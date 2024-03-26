@@ -1,6 +1,6 @@
-RemoveDuplicatesTest1.BasicAssertions 16 0.000145723
-RemoveDuplicatesTest2.BasicAssertions 16 0.000112363
-RemoveDuplicatesTest3.BasicAssertions 16 9.36936e-05
-RemoveDuplicatesTest4.BasicAssertions 15 9.84059e-05
-RemoveDuplicatesTest5.BasicAssertions 8 0.000202928
+RemoveDuplicatesTest1.BasicAssertions 18 0.000118401
+RemoveDuplicatesTest2.BasicAssertions 18 8.38864e-05
+RemoveDuplicatesTest3.BasicAssertions 18 9.23012e-05
+RemoveDuplicatesTest4.BasicAssertions 17 9.09954e-05
+RemoveDuplicatesTest5.BasicAssertions 10 0.000224096
 ---

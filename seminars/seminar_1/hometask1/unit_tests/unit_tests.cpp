@@ -10,10 +10,10 @@ TEST(ZeroEndTest1, BasicAssertions) {
   std::cout << "Expected data: ";
   print(arr_res);
 
-  std::cout << "Result: ";
-  print(arr);
-
   zerosEnd(arr);
+
+  std::cout << "Result data: ";
+  print(arr);
 
   EXPECT_EQ(arr, arr_res);
 }
@@ -29,7 +29,7 @@ TEST(ZeroEndTest2, BasicAssertions){
   
   zerosEnd(arr);
 
-  std::cout << "Result: ";
+  std::cout << "Result data: ";
   print(arr);
   
   EXPECT_EQ(arr, arr_res);
@@ -46,7 +46,7 @@ TEST(ZeroEndTest3, BasicAssertions){
   
   zerosEnd(arr);
 
-  std::cout << "Result: ";
+  std::cout << "Result data: ";
   print(arr);
 
   EXPECT_EQ(arr, arr_res);
@@ -63,7 +63,7 @@ TEST(ZeroEndTest4, BasicAssertions){
   
   zerosEnd(arr);
 
-  std::cout << "Result: ";
+  std::cout << "Result data: ";
   print(arr);
 
   EXPECT_EQ(arr, arr_res);
@@ -80,7 +80,7 @@ TEST(ZeroEndTest5, BasicAssertions){
   
   zerosEnd(arr);
 
-  std::cout << "Result: ";
+  std::cout << "Result data: ";
   print(arr);
 
   EXPECT_EQ(arr, arr_res);

@@ -1,3 +1,0 @@
-/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/vadim/vk_ads/seminars/seminar_1/hometask1/unit_tests/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

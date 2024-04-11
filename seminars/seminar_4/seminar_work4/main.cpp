@@ -37,26 +37,27 @@ int feedAnimals(std::array<int, K>& animals,std::array<int, T>& food){
     int i = 0;
     int j = 0;
 
-    while (i < N and j < M){
-        if (animals[i] <= food[j]){
+    for (int a: food){
+        if (a >= animals[count]){
             count++;
-            ++i;
         }
-        ++j;
+
+        if (count == N){
+            break;
+        }
     }
     return count;
 }
 
 char extraLetter(std::string const& a, std::string const& b){
-    std::unordered_map<char, int> hashMapB;
+    std::unordered_map<char, int> hashMapB{};
 
     for (char c: b){
         hashMapB[c] = 1;
     }
 
     for (char c: a){
-        hashMapB.erase(c);  
-        hashMapB.insert({c, 0});
+        hashMapB[c]--;
     }
 
     for (char c: b){
@@ -68,8 +69,17 @@ char extraLetter(std::string const& a, std::string const& b){
 }
 
 template <size_t N>
-int twoSum(std::array<int, N>& arr){
-    return 0;
+std::pair<int,int> twoSum(std::array<int, N>& arr, int target){
+    std::unordered_map<int,int> hashMap{};
+    
+    for (int i=1; i<N; ++i){
+        if (hashMap.count(arr[i]) != 0){
+            std::pair<int,int> solution{i, hashMap[arr[i]]};
+            return solution;
+        }
+        hashMap[target - arr[i]] = i;
+    }
+    return std::pair{-1,-1};
 }
 
 template <size_t N>
@@ -81,8 +91,5 @@ void print(std::array<int, N>& arr){
 }
 
 int main(){
-    std::string a{""};
-    std::string b{"a"};
-
-    std::cout << extraLetter(a,b);
+    std::cout << typeid("a").name();
 }

@@ -1,5 +1,0 @@
-if(EXISTS "/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1[1]_tests.cmake")
-  include("/home/vadim/vk_ads/seminars/seminar_3/hometask3/unit_tests/build/RemoveDuplicatesTest1[1]_tests.cmake")
-else()
-  add_test(RemoveDuplicatesTest1_NOT_BUILT RemoveDuplicatesTest1_NOT_BUILT)
-endif()

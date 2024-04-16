@@ -5,7 +5,7 @@
 
 template <size_t N>
 void shell_sort(std::array<int, N>& arr){
-    int n = static_cast<int>(size(arr));
+    int n = static_cast<int>(arr.size());
     int gap = n / 2;
 
     while (gap > 0){
@@ -23,8 +23,8 @@ void shell_sort(std::array<int, N>& arr){
 
 template <size_t K, size_t T>
 int feedAnimals(std::array<int, K>& animals,std::array<int, T>& food){
-    int N = static_cast<int>(size(animals));
-    int M = static_cast<int>(size(food));
+    int N = static_cast<int>(animals.size());
+    int M = static_cast<int>(food.size());
     
     if (N == 0 or M == 0){
         return 0;
@@ -53,7 +53,11 @@ char extraLetter(std::string const& a, std::string const& b){
     std::unordered_map<char, int> hashMapB{};
 
     for (char c: b){
-        hashMapB[c] = 1;
+        if (hashMapB.count(c) != 0){
+            hashMapB[c]++;
+        } else{   
+            hashMapB[c] = 1;
+        }
     }
 
     for (char c: a){
@@ -72,24 +76,32 @@ template <size_t N>
 std::pair<int,int> twoSum(std::array<int, N>& arr, int target){
     std::unordered_map<int,int> hashMap{};
     
-    for (int i=1; i<N; ++i){
+    for (int i=0; i<N; ++i){
         if (hashMap.count(arr[i]) != 0){
-            std::pair<int,int> solution{i, hashMap[arr[i]]};
+            std::pair<int,int> solution{hashMap[arr[i]], i};
             return solution;
         }
         hashMap[target - arr[i]] = i;
     }
-    return std::pair{-1,-1};
+    return std::pair<int,int>{-1,-1};
 }
 
-template <size_t N>
-void print(std::array<int, N>& arr){
+void stringHashSort(std::string str){
+    std::unordered_map<char,int> hashMap{};
+
+    for (char c: str){
+        hashMap[c]++; 
+    }
+}
+
+template <typename T, size_t N>
+void print(std::array<T, N>& arr){
     for (int i=0; i<N; ++i){
-        std::cout << arr[i];
+        std::cout << arr[i] << ' ';
     }
     std::cout << std::endl;
 }
 
 int main(){
-    std::cout << typeid("a").name();
+    return 0;
 }

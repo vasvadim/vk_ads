@@ -1,0 +1,22 @@
+ShellSortTest1.BasicAssertions 10 0.000265268
+ShellSortTest2.BasicAssertions 6 0.00037049
+ShellSortTest3.BasicAssertions 2 0.00130318
+ShellSortTest1.ShellSort 2 0.00136073
+ShellSortTest2.ShellSort 2 0.00140307
+ShellSortTest3.ShellSort 2 0.00190838
+ShellSortTest1.ShellSortTests 38 9.00017e-05
+ShellSortTest2.ShellSortTests 38 7.12744e-05
+ShellSortTest3.ShellSortTests 38 0.000136956
+FeedAnimalsTest1.FeedAnimalsTests 37 7.14744e-05
+FeedAnimalsTest2.FeedAnimalsTests 33 9.75328e-05
+FeedAnimalsTest3.FeedAnimalsTests 33 9.36416e-05
+ExtraLetterTest1.ExtraLetterTests 29 0.000114781
+ExtraLetterTest2.ExtraLetterTests 25 9.6642e-05
+ExtraLetterTest3.ExtraLetterTests 27 7.66116e-05
+TwoSumTest1.TwoSumTests 20 0.0001632
+TwoSumTest2.TwoSumTests 11 0.000242867
+TwoSumTest3.TwoSumTests 11 0.000215069
+AnagramGroupTest1.AnagramGroupTests 8 0.00029636
+AnagramGroupTest2.AnagramGroupTests 4 0.000525275
+AnagramGroupTest3.AnagramGroupTests 5 0.000588539
+---

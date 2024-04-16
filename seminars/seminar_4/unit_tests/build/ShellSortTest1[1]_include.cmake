@@ -1,0 +1,5 @@
+if(EXISTS "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1[1]_tests.cmake")
+  include("/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1[1]_tests.cmake")
+else()
+  add_test(ShellSortTest1_NOT_BUILT ShellSortTest1_NOT_BUILT)
+endif()

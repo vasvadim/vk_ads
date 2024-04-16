@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FeedAnimalsTest3.dir/unit_tests.cpp.o -o FeedAnimalsTest3  lib/libgtest_main.a lib/libgtest.a 

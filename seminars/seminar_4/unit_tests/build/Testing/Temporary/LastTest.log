@@ -1,0 +1,480 @@
+Start testing: Apr 16 11:56 MSK
+----------------------------------------------------------
+1/15 Testing: ShellSortTest1.ShellSortTests
+1/15 Test: ShellSortTest1.ShellSortTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest1.ShellSortTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ShellSortTest1.ShellSortTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ShellSortTest1.ShellSortTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellSortTest1
+[ RUN      ] ShellSortTest1.ShellSortTests
+Input data: 10 5 3 7 8 6 2 1 4 9 
+Expected data: 1 2 3 4 5 6 7 8 9 10 
+Output data: 1 2 3 4 5 6 7 8 9 10 
+[       OK ] ShellSortTest1.ShellSortTests (0 ms)
+[----------] 1 test from ShellSortTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ShellSortTest1.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest1.ShellSortTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: ShellSortTest2.ShellSortTests
+2/15 Test: ShellSortTest2.ShellSortTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest2.ShellSortTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ShellSortTest2.ShellSortTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ShellSortTest2.ShellSortTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellSortTest2
+[ RUN      ] ShellSortTest2.ShellSortTests
+Input data: 1 2 1 1 1 0 -1 
+Expected data: -1 0 1 1 1 1 2 
+Output data: -1 0 1 1 1 1 2 
+[       OK ] ShellSortTest2.ShellSortTests (0 ms)
+[----------] 1 test from ShellSortTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ShellSortTest2.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest2.ShellSortTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: ShellSortTest3.ShellSortTests
+3/15 Test: ShellSortTest3.ShellSortTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest3.ShellSortTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ShellSortTest3.ShellSortTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ShellSortTest3.ShellSortTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellSortTest3
+[ RUN      ] ShellSortTest3.ShellSortTests
+Input data: 1 
+Expected data: 1 
+Output data: 1 
+[       OK ] ShellSortTest3.ShellSortTests (0 ms)
+[----------] 1 test from ShellSortTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ShellSortTest3.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest3.ShellSortTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: FeedAnimalsTest1.FeedAnimalsTests
+4/15 Test: FeedAnimalsTest1.FeedAnimalsTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest1.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"FeedAnimalsTest1.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FeedAnimalsTest1.FeedAnimalsTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FeedAnimalsTest1
+[ RUN      ] FeedAnimalsTest1.FeedAnimalsTests
+Input data: animals: 1 3 2 
+food: 1 2 2 
+Expected data: 2
+Output data: 2
+[       OK ] FeedAnimalsTest1.FeedAnimalsTests (0 ms)
+[----------] 1 test from FeedAnimalsTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FeedAnimalsTest1.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest1.FeedAnimalsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: FeedAnimalsTest2.FeedAnimalsTests
+5/15 Test: FeedAnimalsTest2.FeedAnimalsTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest2.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"FeedAnimalsTest2.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FeedAnimalsTest2.FeedAnimalsTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FeedAnimalsTest2
+[ RUN      ] FeedAnimalsTest2.FeedAnimalsTests
+Input data: animals: 1 3 3 4 10 
+food: 1 2 2 5 11 
+Expected data: 3
+Output data: 3
+[       OK ] FeedAnimalsTest2.FeedAnimalsTests (0 ms)
+[----------] 1 test from FeedAnimalsTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FeedAnimalsTest2.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest2.FeedAnimalsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: FeedAnimalsTest3.FeedAnimalsTests
+6/15 Test: FeedAnimalsTest3.FeedAnimalsTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest3.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"FeedAnimalsTest3.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FeedAnimalsTest3.FeedAnimalsTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FeedAnimalsTest3
+[ RUN      ] FeedAnimalsTest3.FeedAnimalsTests
+Input data: animals: 10 
+food: 5 9 8 8 2 3 
+Expected data: 0
+Output data: 0
+[       OK ] FeedAnimalsTest3.FeedAnimalsTests (0 ms)
+[----------] 1 test from FeedAnimalsTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FeedAnimalsTest3.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest3.FeedAnimalsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: ExtraLetterTest1.ExtraLetterTests
+7/15 Test: ExtraLetterTest1.ExtraLetterTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest1.ExtraLetterTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ExtraLetterTest1.ExtraLetterTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ExtraLetterTest1.ExtraLetterTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExtraLetterTest1
+[ RUN      ] ExtraLetterTest1.ExtraLetterTests
+Input data: String_1: aboba
+String_2: abosba
+Expected data: s
+Output data: s
+[       OK ] ExtraLetterTest1.ExtraLetterTests (0 ms)
+[----------] 1 test from ExtraLetterTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtraLetterTest1.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest1.ExtraLetterTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: ExtraLetterTest2.ExtraLetterTests
+8/15 Test: ExtraLetterTest2.ExtraLetterTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest2.ExtraLetterTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ExtraLetterTest2.ExtraLetterTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ExtraLetterTest2.ExtraLetterTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExtraLetterTest2
+[ RUN      ] ExtraLetterTest2.ExtraLetterTests
+Input data: String_1: abcdef
+String_2: abcdefd
+Expected data: d
+Output data: d
+[       OK ] ExtraLetterTest2.ExtraLetterTests (0 ms)
+[----------] 1 test from ExtraLetterTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtraLetterTest2.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest2.ExtraLetterTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: ExtraLetterTest3.ExtraLetterTests
+9/15 Test: ExtraLetterTest3.ExtraLetterTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest3.ExtraLetterTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"ExtraLetterTest3.ExtraLetterTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ExtraLetterTest3.ExtraLetterTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ExtraLetterTest3
+[ RUN      ] ExtraLetterTest3.ExtraLetterTests
+Input data: String_1: 
+String_2: a
+Expected data: a
+Output data: a
+[       OK ] ExtraLetterTest3.ExtraLetterTests (0 ms)
+[----------] 1 test from ExtraLetterTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtraLetterTest3.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest3.ExtraLetterTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: TwoSumTest1.TwoSumTests
+10/15 Test: TwoSumTest1.TwoSumTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest1.TwoSumTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"TwoSumTest1.TwoSumTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TwoSumTest1.TwoSumTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TwoSumTest1
+[ RUN      ] TwoSumTest1.TwoSumTests
+Input data: 1 2 3 4 10 
+target: 11
+Expected data: 0 4
+Output data: 0 4
+[       OK ] TwoSumTest1.TwoSumTests (0 ms)
+[----------] 1 test from TwoSumTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TwoSumTest1.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest1.TwoSumTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: TwoSumTest2.TwoSumTests
+11/15 Test: TwoSumTest2.TwoSumTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest2.TwoSumTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"TwoSumTest2.TwoSumTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TwoSumTest2.TwoSumTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TwoSumTest2
+[ RUN      ] TwoSumTest2.TwoSumTests
+Input data: 0 0 0 1 15 3 
+target: 3
+Expected data: 2 5
+Output data: 2 5
+[       OK ] TwoSumTest2.TwoSumTests (0 ms)
+[----------] 1 test from TwoSumTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TwoSumTest2.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest2.TwoSumTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: TwoSumTest3.TwoSumTests
+12/15 Test: TwoSumTest3.TwoSumTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest3.TwoSumTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"TwoSumTest3.TwoSumTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TwoSumTest3.TwoSumTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TwoSumTest3
+[ RUN      ] TwoSumTest3.TwoSumTests
+Input data: 0 0 12 0 0 0 13 
+target: 25
+Expected data: 2 6
+Output data: 2 6
+[       OK ] TwoSumTest3.TwoSumTests (0 ms)
+[----------] 1 test from TwoSumTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TwoSumTest3.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest3.TwoSumTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: AnagramGroupTest1.AnagramGroupTests
+13/15 Test: AnagramGroupTest1.AnagramGroupTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest1.AnagramGroupTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"AnagramGroupTest1.AnagramGroupTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AnagramGroupTest1.AnagramGroupTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnagramGroupTest1
+[ RUN      ] AnagramGroupTest1.AnagramGroupTests
+Input data: abc avg bca voda adov cab 
+Expected data: 
+abc bca cab 
+avg 
+voda adov 
+Output data: 
+abc bca cab 
+avg 
+voda adov 
+[       OK ] AnagramGroupTest1.AnagramGroupTests (0 ms)
+[----------] 1 test from AnagramGroupTest1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AnagramGroupTest1.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest1.AnagramGroupTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: AnagramGroupTest2.AnagramGroupTests
+14/15 Test: AnagramGroupTest2.AnagramGroupTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest2.AnagramGroupTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"AnagramGroupTest2.AnagramGroupTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AnagramGroupTest2.AnagramGroupTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnagramGroupTest2
+[ RUN      ] AnagramGroupTest2.AnagramGroupTests
+Input data: ba allo olla ab a 
+Expected data: 
+ba ab 
+allo olla 
+a 
+Output data: 
+ba ab 
+allo olla 
+a 
+[       OK ] AnagramGroupTest2.AnagramGroupTests (0 ms)
+[----------] 1 test from AnagramGroupTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AnagramGroupTest2.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest2.AnagramGroupTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: AnagramGroupTest3.AnagramGroupTests
+15/15 Test: AnagramGroupTest3.AnagramGroupTests
+Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest3.AnagramGroupTests" "--gtest_also_run_disabled_tests"
+Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
+"AnagramGroupTest3.AnagramGroupTests" start time: Apr 16 11:56 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AnagramGroupTest3.AnagramGroupTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnagramGroupTest3
+[ RUN      ] AnagramGroupTest3.AnagramGroupTests
+Input data: aboba bobaa gava bboaa avag dom baboa 
+Expected data: 
+aboba bobaa bboaa baboa 
+gava avag 
+dom 
+Output data: 
+aboba bobaa bboaa baboa 
+gava avag 
+dom 
+[       OK ] AnagramGroupTest3.AnagramGroupTests (0 ms)
+[----------] 1 test from AnagramGroupTest3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AnagramGroupTest3.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest3.AnagramGroupTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 16 11:56 MSK

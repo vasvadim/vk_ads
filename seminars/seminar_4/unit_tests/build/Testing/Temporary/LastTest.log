@@ -1,10 +1,10 @@
-Start testing: Apr 16 11:56 MSK
+Start testing: Apr 30 11:18 MSK
 ----------------------------------------------------------
 1/15 Testing: ShellSortTest1.ShellSortTests
 1/15 Test: ShellSortTest1.ShellSortTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest1.ShellSortTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ShellSortTest1.ShellSortTests" start time: Apr 16 11:56 MSK
+"ShellSortTest1.ShellSortTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -26,7 +26,7 @@ Output data: 1 2 3 4 5 6 7 8 9 10
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ShellSortTest1.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest1.ShellSortTests" end time: Apr 30 11:18 MSK
 "ShellSortTest1.ShellSortTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,7 +34,7 @@ Test Passed.
 2/15 Test: ShellSortTest2.ShellSortTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest2.ShellSortTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ShellSortTest2.ShellSortTests" start time: Apr 16 11:56 MSK
+"ShellSortTest2.ShellSortTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -56,7 +56,7 @@ Output data: -1 0 1 1 1 1 2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ShellSortTest2.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest2.ShellSortTests" end time: Apr 30 11:18 MSK
 "ShellSortTest2.ShellSortTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,7 +64,7 @@ Test Passed.
 3/15 Test: ShellSortTest3.ShellSortTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ShellSortTest3.ShellSortTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ShellSortTest3.ShellSortTests" start time: Apr 16 11:56 MSK
+"ShellSortTest3.ShellSortTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -83,10 +83,10 @@ Output data: 1
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ShellSortTest3.ShellSortTests" end time: Apr 16 11:56 MSK
+"ShellSortTest3.ShellSortTests" end time: Apr 30 11:18 MSK
 "ShellSortTest3.ShellSortTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,7 +94,7 @@ Test Passed.
 4/15 Test: FeedAnimalsTest1.FeedAnimalsTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest1.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"FeedAnimalsTest1.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+"FeedAnimalsTest1.FeedAnimalsTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -117,7 +117,7 @@ Output data: 2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FeedAnimalsTest1.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest1.FeedAnimalsTests" end time: Apr 30 11:18 MSK
 "FeedAnimalsTest1.FeedAnimalsTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -125,7 +125,7 @@ Test Passed.
 5/15 Test: FeedAnimalsTest2.FeedAnimalsTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest2.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"FeedAnimalsTest2.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+"FeedAnimalsTest2.FeedAnimalsTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -148,7 +148,7 @@ Output data: 3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FeedAnimalsTest2.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest2.FeedAnimalsTests" end time: Apr 30 11:18 MSK
 "FeedAnimalsTest2.FeedAnimalsTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -156,7 +156,7 @@ Test Passed.
 6/15 Test: FeedAnimalsTest3.FeedAnimalsTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=FeedAnimalsTest3.FeedAnimalsTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"FeedAnimalsTest3.FeedAnimalsTests" start time: Apr 16 11:56 MSK
+"FeedAnimalsTest3.FeedAnimalsTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -179,7 +179,7 @@ Output data: 0
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"FeedAnimalsTest3.FeedAnimalsTests" end time: Apr 16 11:56 MSK
+"FeedAnimalsTest3.FeedAnimalsTests" end time: Apr 30 11:18 MSK
 "FeedAnimalsTest3.FeedAnimalsTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -187,7 +187,7 @@ Test Passed.
 7/15 Test: ExtraLetterTest1.ExtraLetterTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest1.ExtraLetterTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ExtraLetterTest1.ExtraLetterTests" start time: Apr 16 11:56 MSK
+"ExtraLetterTest1.ExtraLetterTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -210,7 +210,7 @@ Output data: s
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtraLetterTest1.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest1.ExtraLetterTests" end time: Apr 30 11:18 MSK
 "ExtraLetterTest1.ExtraLetterTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -218,7 +218,7 @@ Test Passed.
 8/15 Test: ExtraLetterTest2.ExtraLetterTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest2.ExtraLetterTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ExtraLetterTest2.ExtraLetterTests" start time: Apr 16 11:56 MSK
+"ExtraLetterTest2.ExtraLetterTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -241,7 +241,7 @@ Output data: d
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtraLetterTest2.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest2.ExtraLetterTests" end time: Apr 30 11:18 MSK
 "ExtraLetterTest2.ExtraLetterTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -249,7 +249,7 @@ Test Passed.
 9/15 Test: ExtraLetterTest3.ExtraLetterTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=ExtraLetterTest3.ExtraLetterTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"ExtraLetterTest3.ExtraLetterTests" start time: Apr 16 11:56 MSK
+"ExtraLetterTest3.ExtraLetterTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -272,7 +272,7 @@ Output data: a
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtraLetterTest3.ExtraLetterTests" end time: Apr 16 11:56 MSK
+"ExtraLetterTest3.ExtraLetterTests" end time: Apr 30 11:18 MSK
 "ExtraLetterTest3.ExtraLetterTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -280,7 +280,7 @@ Test Passed.
 10/15 Test: TwoSumTest1.TwoSumTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest1.TwoSumTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"TwoSumTest1.TwoSumTests" start time: Apr 16 11:56 MSK
+"TwoSumTest1.TwoSumTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -303,7 +303,7 @@ Output data: 0 4
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TwoSumTest1.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest1.TwoSumTests" end time: Apr 30 11:18 MSK
 "TwoSumTest1.TwoSumTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -311,7 +311,7 @@ Test Passed.
 11/15 Test: TwoSumTest2.TwoSumTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest2.TwoSumTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"TwoSumTest2.TwoSumTests" start time: Apr 16 11:56 MSK
+"TwoSumTest2.TwoSumTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -334,7 +334,7 @@ Output data: 2 5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TwoSumTest2.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest2.TwoSumTests" end time: Apr 30 11:18 MSK
 "TwoSumTest2.TwoSumTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,7 +342,7 @@ Test Passed.
 12/15 Test: TwoSumTest3.TwoSumTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=TwoSumTest3.TwoSumTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"TwoSumTest3.TwoSumTests" start time: Apr 16 11:56 MSK
+"TwoSumTest3.TwoSumTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -365,7 +365,7 @@ Output data: 2 6
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TwoSumTest3.TwoSumTests" end time: Apr 16 11:56 MSK
+"TwoSumTest3.TwoSumTests" end time: Apr 30 11:18 MSK
 "TwoSumTest3.TwoSumTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -373,7 +373,7 @@ Test Passed.
 13/15 Test: AnagramGroupTest1.AnagramGroupTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest1.AnagramGroupTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"AnagramGroupTest1.AnagramGroupTests" start time: Apr 16 11:56 MSK
+"AnagramGroupTest1.AnagramGroupTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,7 +401,7 @@ voda adov
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AnagramGroupTest1.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest1.AnagramGroupTests" end time: Apr 30 11:18 MSK
 "AnagramGroupTest1.AnagramGroupTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 14/15 Test: AnagramGroupTest2.AnagramGroupTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest2.AnagramGroupTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"AnagramGroupTest2.AnagramGroupTests" start time: Apr 16 11:56 MSK
+"AnagramGroupTest2.AnagramGroupTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -437,7 +437,7 @@ a
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AnagramGroupTest2.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest2.AnagramGroupTests" end time: Apr 30 11:18 MSK
 "AnagramGroupTest2.AnagramGroupTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -445,7 +445,7 @@ Test Passed.
 15/15 Test: AnagramGroupTest3.AnagramGroupTests
 Command: "/home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/ShellSortTest1" "--gtest_filter=AnagramGroupTest3.AnagramGroupTests" "--gtest_also_run_disabled_tests"
 Directory: /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build
-"AnagramGroupTest3.AnagramGroupTests" start time: Apr 16 11:56 MSK
+"AnagramGroupTest3.AnagramGroupTests" start time: Apr 30 11:18 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/vadim/vk_ads/seminars/seminar_4/unit_tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -473,8 +473,8 @@ dom
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AnagramGroupTest3.AnagramGroupTests" end time: Apr 16 11:56 MSK
+"AnagramGroupTest3.AnagramGroupTests" end time: Apr 30 11:18 MSK
 "AnagramGroupTest3.AnagramGroupTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 16 11:56 MSK
+End testing: Apr 30 11:18 MSK

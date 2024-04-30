@@ -226,12 +226,12 @@ TEST(AnagramGroupTest1, AnagramGroupTests){
     result.push_back(std::vector<std::string>{"voda", "adov"});
     
     std::cout << "Expected data: " << std::endl;
-    printVectorsInVector(result);
+    print2Dvector(result);
 
     std::vector<std::vector<std::string>> output_vector = anagramGroup(arr);
 
     std::cout << "Output data: " << std::endl;
-    printVectorsInVector(output_vector);
+    print2Dvector(output_vector);
 
     EXPECT_EQ(result, output_vector);
 }
@@ -248,12 +248,12 @@ TEST(AnagramGroupTest2, AnagramGroupTests){
     result.push_back(std::vector<std::string>{"a"});
     
     std::cout << "Expected data: " << std::endl;
-    printVectorsInVector(result);
+    print2Dvector(result);
 
     std::vector<std::vector<std::string>> output_vector = anagramGroup(arr);
 
     std::cout << "Output data: " << std::endl;
-    printVectorsInVector(output_vector);
+    print2Dvector(output_vector);
 
     EXPECT_EQ(result, output_vector);
 }
@@ -270,12 +270,12 @@ TEST(AnagramGroupTest3, AnagramGroupTests){
     result.push_back(std::vector<std::string>{"dom"});
     
     std::cout << "Expected data: " << std::endl;
-    printVectorsInVector(result);
+    print2Dvector(result);
 
     std::vector<std::vector<std::string>> output_vector = anagramGroup(arr);
 
     std::cout << "Output data: " << std::endl;
-    printVectorsInVector(output_vector);
+    print2Dvector(output_vector);
 
     EXPECT_EQ(result, output_vector);
 }

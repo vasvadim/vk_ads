@@ -86,14 +86,6 @@ std::pair<int,int> twoSum(std::array<int, N>& arr, int target){
     return std::pair<int,int>{-1,-1};
 }
 
-void stringHashSort(std::string str){
-    std::unordered_map<char,int> hashMap{};
-
-    for (char c: str){
-        hashMap[c]++; 
-    }
-}
-
 template <typename T, size_t N>
 void print(std::array<T, N>& arr){
     for (int i=0; i<N; ++i){

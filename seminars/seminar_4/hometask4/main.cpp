@@ -21,42 +21,23 @@ void printVectorsInVector(std::vector<std::vector<std::string>> v){
 }
 
 template <size_t N>
-std::vector<std::vector<std::string>> anagramGroup(std::array<std::string,N>& arr){
-    std::unordered_map<std::string, int> hashMap{};
-    std::unordered_map<std::string, int> hashMapOrder{};
-    std::array<std::string,N> arr_sorted{};
-
-    for (int i=0; i<N; ++i){
-        std::string str_copy = arr[i];
-        std::sort(str_copy.begin(), str_copy.end());
-
-        arr_sorted[i] = str_copy;
+std::vector<std::vector<std::string>> groupAnagrams(std::array<std::string, N>& strs) {
+    std::unordered_map<std::string, int> map;
+    std::vector<std::vector<std::string>> res;
+    int index = 0;
+    for(const std::string &word: strs){
+        std::string temp = word;
+        std::sort(temp.begin(), temp.end());
+    if (map.count(temp) == 0){
+        map[temp] = index;
+        res.push_back({word});
+        index++;
     }
-
-    int Index = 0;
-    for (int i=0; i<N; ++i){
-        if (hashMapOrder.count(arr_sorted[i]) == 0){
-            hashMapOrder.insert({arr_sorted[i], Index});
-            Index++;
-        }
+    else{
+        res[map[temp]].push_back(word);
     }
-
-    for (int i=0; i<N; ++i){
-        hashMap.insert({arr[i], hashMapOrder[arr_sorted[i]]});
     }
-
-    std::vector<std::vector<std::string>> result{};
-    for (int i=0; i<Index; ++i){
-        std::vector<std::string>* ptr = new std::vector<std::string>{}; 
-        for (std::string s: arr){
-            if (hashMap[s] == i){
-            (*ptr).push_back(s);
-            }
-        }
-        result.push_back(*ptr);
-    }
-
-    return result;
+    return res;
 }
 
 
